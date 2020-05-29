@@ -18,6 +18,10 @@
     <string name="text_uni">Universidad</string>
     <string name="text_carrera">Carrera</string>
 
+    <string name="text_evaluacion">Evaluación:</string>
+    <string name="text_porcentaje">Porcentaje:</string>
+    <string name="text_fecha">Fecha:</string>
+
     <!--- Textos para botones -->
     <string name="text_btn_add">Añadir</string>
     <string name="text_btn_save">Guardar</string>
