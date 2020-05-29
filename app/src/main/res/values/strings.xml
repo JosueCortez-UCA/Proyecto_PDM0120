@@ -8,5 +8,13 @@
     <string name="text_uv">UV:</string>
     <string name="text_horario_inicio">Hora de inicio:</string>
     <string name="text_horario_fin">Hora de fin:</string>
+
     <string name="text_btn_add">Añadir</string>
+    <string name="text_btn_profile">Perfil</string>
+    <string name="text_btn_pensum">Pensum</string>
+    <string name="text_btn_record">Historial</string>
+    <string name="text_btn_weekly_schedule">Horario de clase</string>
+    <string name="text_btn_schedule">Agenda</string>
+    <string name="text_btn_grades_record">Historial de notas</string>
+
 </resources>
