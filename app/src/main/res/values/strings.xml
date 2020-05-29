@@ -3,4 +3,10 @@
 
     <string name="text_hora">Hora:</string>
     <string name="text_salon">Salón:</string>
+    <string name="text_dias_cursan">Días que se cursaran:</string>
+    <string name="text_materia">Materia:</string>
+    <string name="text_uv">UV:</string>
+    <string name="text_horario_inicio">Hora de inicio:</string>
+    <string name="text_horario_fin">Hora de fin:</string>
+    <string name="text_btn_add">Añadir</string>
 </resources>
