@@ -5,7 +5,7 @@
     <color name="colorAccent">#03DAC5</color>
 
     <color name="color_negro">#FF000000</color>
-    <color name="color_blanco">##FFFFFFFF</color>
+    <color name="color_blanco">#FFFFFFFF</color>
 
     <color name="background_titles">#473466</color>
     <color name="background_sub_titles">#CD787E</color>
