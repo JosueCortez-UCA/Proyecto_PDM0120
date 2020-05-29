@@ -21,6 +21,7 @@
     <!--- Textos para botones -->
     <string name="text_btn_add">Añadir</string>
     <string name="text_btn_save">Guardar</string>
+    <string name="text_btn_update">Actualizar</string>
     <string name="text_btn_cancel">Cancelar</string>
 
     <string name="text_btn_sing_in">Ingresar</string>
@@ -40,5 +41,9 @@
     <string name="text_hint_pass_repeat">Repita la contraseña</string>
     <string name="text_hint_uni">Universidad</string>
     <string name="text_hint_carrera">Carrera</string>
+
+    <string name="text_hint_pass_actual">Contraseña actual</string>
+    <string name="text_hint_pass_nueva">Contraseña nueva</string>
+    <string name="text_hint_pass_confirm">Confirmar contraseña</string>
 
 </resources>
