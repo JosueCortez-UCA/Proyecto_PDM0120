@@ -141,6 +141,7 @@
 
     <Button
         android:id="@+id/button"
+        style="@style/buttons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_medium"
