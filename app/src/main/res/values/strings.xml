@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Proyecto PDM 0120</string>
 
+    <!--- Textos para textview -->
     <string name="text_hora">Hora:</string>
     <string name="text_salon">Salón:</string>
     <string name="text_dias_cursan">Días que se cursaran:</string>
@@ -9,6 +10,7 @@
     <string name="text_horario_inicio">Hora de inicio:</string>
     <string name="text_horario_fin">Hora de fin:</string>
 
+    <!--- Textos para botones -->
     <string name="text_btn_add">Añadir</string>
     <string name="text_btn_sing_in">Ingresar</string>
     <string name="text_btn_sing_up">Registrarse</string>
@@ -18,7 +20,13 @@
     <string name="text_btn_weekly_schedule">Horario de clase</string>
     <string name="text_btn_schedule">Agenda</string>
     <string name="text_btn_grades_record">Historial de notas</string>
+
+    <!--- Textos para hints -->
     <string name="text_hint_email">Email</string>
     <string name="text_hint_pass">Contraseña</string>
+    <string name="text_hint_pass_repeat">Repita la contraseña</string>
+    <string name="text_hint_uni">Universidad</string>
+    <string name="text_hint_carrera">Carrera</string>
+    <string name="text_hint_nombre">Nombre</string>
 
 </resources>
