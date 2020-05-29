@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Proyecto PDM 0120</string>
+
+    <string name="text_hora">Hora:</string>
+    <string name="text_salon">Salón:</string>
 </resources>
