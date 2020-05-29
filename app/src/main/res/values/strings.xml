@@ -10,8 +10,19 @@
     <string name="text_horario_inicio">Hora de inicio:</string>
     <string name="text_horario_fin">Hora de fin:</string>
 
+    <string name="text_nombre">Nombre</string>
+    <string name="text_apellido">Apellido</string>
+    <string name="text_email">Email</string>
+    <string name="text_pass">Contraseña</string>
+    <string name="text_pass_repeat">Repita la contraseña</string>
+    <string name="text_uni">Universidad</string>
+    <string name="text_carrera">Carrera</string>
+
     <!--- Textos para botones -->
     <string name="text_btn_add">Añadir</string>
+    <string name="text_btn_save">Guardar</string>
+    <string name="text_btn_cancel">Cancelar</string>
+
     <string name="text_btn_sing_in">Ingresar</string>
     <string name="text_btn_sing_up">Registrarse</string>
     <string name="text_btn_profile">Perfil</string>
@@ -22,11 +33,12 @@
     <string name="text_btn_grades_record">Historial de notas</string>
 
     <!--- Textos para hints -->
+    <string name="text_hint_nombre">Nombre</string>
+    <string name="text_hint_apellido">Apellido</string>
     <string name="text_hint_email">Email</string>
     <string name="text_hint_pass">Contraseña</string>
     <string name="text_hint_pass_repeat">Repita la contraseña</string>
     <string name="text_hint_uni">Universidad</string>
     <string name="text_hint_carrera">Carrera</string>
-    <string name="text_hint_nombre">Nombre</string>
 
 </resources>
