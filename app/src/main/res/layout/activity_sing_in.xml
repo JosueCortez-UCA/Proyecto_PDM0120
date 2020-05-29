@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Email"
+            android:hint="@string/text_hint_email"
             android:inputType="textEmailAddress" />
 
         <EditText
@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Contraseña"
+            android:hint="@string/text_hint_pass"
             android:inputType="textPassword" />
 
         <LinearLayout
@@ -50,17 +50,19 @@
 
             <Button
                 android:id="@+id/ingresarbutton"
+                style="@style/buttons"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Ingresar" />
+                android:text="@string/text_btn_sing_in" />
 
             <Button
                 android:id="@+id/registrarsebutton"
+                style="@style/buttons"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Registrarse" />
+                android:text="@string/text_btn_sing_up" />
         </LinearLayout>
     </LinearLayout>
 
