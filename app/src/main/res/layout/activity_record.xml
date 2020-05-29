@@ -7,42 +7,47 @@
     tools:context=".Record">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="42dp"
-        android:layout_height="40dp"
-        app:srcCompat="@android:drawable/btn_dialog"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="23dp" />
+        android:id="@+id/imageView10"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_user" />
 
     <TextView
         android:id="@+id/txtUniversidad"
+        style="@style/texts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="@dimen/margin_medium"
         android:text="Universidad"
         android:textColor="@android:color/black"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        tools:layout_editor_absoluteX="62dp" />
 
     <TextView
         android:id="@+id/txtCarrera"
+        style="@style/texts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Carrera"
         android:textColor="@android:color/black"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/txtUniversidad" />
+        app:layout_constraintTop_toBottomOf="@+id/txtUniversidad"
+        tools:layout_editor_absoluteX="62dp" />
 
     <TextView
         android:id="@+id/txtCum"
+        style="@style/texts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="CUM"
         android:textColor="@android:color/black"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/txtCarrera" />
+        app:layout_constraintTop_toBottomOf="@+id/txtCarrera"
+        tools:layout_editor_absoluteX="62dp" />
 
     <TextView
         android:id="@+id/txtAprobadas"
@@ -52,32 +57,34 @@
         android:inputType="textMultiLine"
         android:text="Materias Aprobadas"
         android:textColor="@android:color/black"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/txtCum" />
+        app:layout_constraintTop_toBottomOf="@+id/txtCum"
+        tools:layout_editor_absoluteX="62dp"
+        style="@style/texts" />
 
     <TextView
         android:id="@+id/txtProgreso"
+        style="@style/texts"
         android:layout_width="79dp"
         android:layout_height="41dp"
         android:layout_marginTop="24dp"
         android:inputType="textMultiLine"
-        android:text="Progreso de Pemsum "
+        android:text="Progreso"
         android:textColor="@android:color/black"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/txtAprobadas" />
+        app:layout_constraintTop_toBottomOf="@+id/txtAprobadas"
+        tools:layout_editor_absoluteX="62dp" />
 
     <TextView
         android:id="@+id/viewUniversidad"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="@dimen/margin_medium"
         android:layout_marginEnd="24dp"
         android:background="#C4C4C4"
         android:textColor="@android:color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/txtUniversidad"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <TextView
         android:id="@+id/viewCarrera"
@@ -133,6 +140,7 @@
 
     <TextView
         android:id="@+id/viewCiclo"
+        style="@style/titles"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -147,6 +155,7 @@
 
     <TextView
         android:id="@+id/viewMateria1"
+        style="@style/texts"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -161,6 +170,7 @@
 
     <TextView
         android:id="@+id/viewMateria2"
+        style="@style/texts"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -175,6 +185,7 @@
 
     <TextView
         android:id="@+id/viewMateria3"
+        style="@style/texts"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -189,6 +200,7 @@
 
     <TextView
         android:id="@+id/viewMateria"
+        style="@style/texts"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
