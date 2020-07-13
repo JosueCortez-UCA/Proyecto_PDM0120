@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/home_Fragment">
+    <fragment
+        android:id="@+id/home_Fragment"
+        android:name="com.ucajosuecort.proyectopdm0120.Home_Fragment"
+        android:label="Home_Fragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_Fragment_to_profile_Fragment"
+            app:destination="@id/profile_Fragment" />
+        <action
+            android:id="@+id/action_home_Fragment_to_record_Fragment"
+            app:destination="@id/record_Fragment" />
+        <action
+            android:id="@+id/action_home_Fragment_to_weekly_Schedule_Fragment"
+            app:destination="@id/weekly_Schedule_Fragment" />
+        <action
+            android:id="@+id/action_home_Fragment_to_schedule_Fragment"
+            app:destination="@id/schedule_Fragment" />
+        <action
+            android:id="@+id/action_home_Fragment_to_grades_Record_Fragment"
+            app:destination="@id/grades_Record_Fragment" />
+        <action
+            android:id="@+id/action_home_Fragment_to_prensum_Fragment"
+            app:destination="@id/prensum_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile_Fragment"
+        android:name="com.ucajosuecort.proyectopdm0120.Profile_Fragment"
+        android:label="Profile_Fragment"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profile_Fragment_to_update_password_Fragment2"
+            app:destination="@id/update_password_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/prensum_Fragment"
+        android:name="com.ucajosuecort.proyectopdm0120.Prensum_Fragment"
+        android:label="Prensum_Fragment"
+        tools:layout="@layout/fragment_prensum">
+        <action
+            android:id="@+id/action_prensum_Fragment_to_modify_Pensum_Fragment"
+            app:destination="@id/modify_Pensum_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/record_Fragment"
+        android:name="com.ucajosuecort.proyectopdm0120.Record_Fragment"
+        android:label="Record_Fragment"
+        tools:layout="@layout/fragment_record"/>
+    <fragment
+        android:id="@+id/weekly_Schedule_Fragment"
+        android:name="com.ucajosuecort.proyectopdm0120.Weekly_Schedule_Fragment"
+        android:label="Weekly_Schedule_Fragment"
+        tools:layout="@layout/fragment_weekly__schedule"/>
+    <fragment
+        android:id="@+id/schedule_Fragment"
+        android:name="com.ucajosuecort.proyectopdm0120.Schedule_Fragment"
+        android:label="Schedule_Fragment"
+        tools:layout="@layout/fragment_schedule"/>
+    <fragment
+        android:id="@+id/grades_Record_Fragment"
+        android:name="com.ucajosuecort.proyectopdm0120.Grades_Record_Fragment"
+        android:label="Grades_Record_Fragment"
+        tools:layout="@layout/fragment_grades__record">
+        <action
+            android:id="@+id/action_grades_Record_Fragment_to_add_Subject_Fragment"
+            app:destination="@id/add_Subject_Fragment" />
+        <action
+            android:id="@+id/action_grades_Record_Fragment_to_modify_grades_Record_Fragment"
+            app:destination="@id/modify_grades_Record_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sing_In_Fragment"
+        android:name="com.ucajosuecort.proyectopdm0120.Sing_In_Fragment"
+        android:label="Sing_In_Fragment"
+        tools:layout="@layout/fragment_sing__in"/>
+    <fragment
+        android:id="@+id/sing_Up_Fragment"
+        android:name="com.ucajosuecort.proyectopdm0120.Sing_Up_Fragment"
+        android:label="Sing_Up_Fragment"
+        tools:layout="@layout/fragment_sing__up"/>
+    <fragment
+        android:id="@+id/update_password_Fragment"
+        android:name="com.ucajosuecort.proyectopdm0120.Update_password_Fragment"
+        android:label="Update_password_Fragment"
+        tools:layout="@layout/fragment_update_password"/>
+    <fragment
+        android:id="@+id/modify_Pensum_Fragment"
+        android:name="com.ucajosuecort.proyectopdm0120.Modify_Pensum_Fragment"
+        android:label="Modify_Pensum_Fragment"
+        tools:layout="@layout/fragment_modify__pensum"/>
+    <fragment
+        android:id="@+id/add_Evaluation_Fragment"
+        android:name="com.ucajosuecort.proyectopdm0120.Add_Evaluation_Fragment"
+        android:label="Add_Evaluation_Fragment"
+        tools:layout="@layout/fragment_add__evaluation"/>
+    <fragment
+        android:id="@+id/add_Subject_Fragment"
+        android:name="com.ucajosuecort.proyectopdm0120.Add_Subject_Fragment"
+        android:label="Add_Subject_Fragment"
+        tools:layout="@layout/fragment_add__subject"/>
+    <fragment
+        android:id="@+id/modify_grades_Record_Fragment"
+        android:name="com.ucajosuecort.proyectopdm0120.Modify_grades_Record_Fragment"
+        android:label="Modify_grades_Record_Fragment"
+        tools:layout="@layout/fragment_modify_grades__record">
+        <action
+            android:id="@+id/action_modify_grades_Record_Fragment_to_add_Evaluation_Fragment"
+            app:destination="@id/add_Evaluation_Fragment" />
+    </fragment>
+</navigation>
