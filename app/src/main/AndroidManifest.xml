@@ -9,17 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ModifyGradesRecord" />
-        <activity android:name=".Schedule" />
-        <activity android:name=".WeeklySchedule" />
-        <activity android:name=".Record" />
-        <activity android:name=".ModifyPensum" />
-        <activity android:name=".Pensum" />
-        <activity android:name=".UpdatePassword" />
-        <activity android:name=".Profile" />
-        <activity android:name=".Home" />
-        <activity android:name=".sing_up" />
-        <activity android:name=".sing_in" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
