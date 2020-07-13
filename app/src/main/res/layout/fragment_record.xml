@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Record_Fragment">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_user" />
+
+        <TextView
+            android:id="@+id/txtUniversidad"
+            style="@style/texts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="Universidad"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+            tools:layout_editor_absoluteX="62dp" />
+
+        <TextView
+            android:id="@+id/txtCarrera"
+            style="@style/texts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Carrera"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@+id/txtUniversidad"
+            tools:layout_editor_absoluteX="62dp" />
+
+        <TextView
+            android:id="@+id/txtCum"
+            style="@style/texts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="CUM"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@+id/txtCarrera"
+            tools:layout_editor_absoluteX="62dp" />
+
+        <TextView
+            android:id="@+id/txtAprobadas"
+            style="@style/texts"
+            android:layout_width="74dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="24dp"
+            android:inputType="textMultiLine"
+            android:text="Materias Aprobadas"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@+id/txtCum"
+            tools:layout_editor_absoluteX="62dp" />
+
+        <TextView
+            android:id="@+id/txtProgreso"
+            style="@style/texts"
+            android:layout_width="79dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="24dp"
+            android:inputType="textMultiLine"
+            android:text="Progreso"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@+id/txtAprobadas"
+            tools:layout_editor_absoluteX="62dp" />
+
+        <TextView
+            android:id="@+id/viewUniversidad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginEnd="24dp"
+            android:background="#C4C4C4"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txtUniversidad"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <TextView
+            android:id="@+id/viewCarrera"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="#C4C4C4"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txtUniversidad"
+            app:layout_constraintTop_toBottomOf="@+id/viewUniversidad" />
+
+        <TextView
+            android:id="@+id/viewCum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="#C4C4C4"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txtUniversidad"
+            app:layout_constraintTop_toBottomOf="@+id/viewCarrera" />
+
+        <TextView
+            android:id="@+id/viewAprobadas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="#C4C4C4"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txtUniversidad"
+            app:layout_constraintTop_toBottomOf="@+id/viewCum" />
+
+        <TextView
+            android:id="@+id/viewProgreso"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="24dp"
+            android:background="#C4C4C4"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txtUniversidad"
+            app:layout_constraintTop_toBottomOf="@+id/viewAprobadas" />
+
+        <TextView
+            android:id="@+id/viewCiclo"
+            style="@style/titles"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="8dp"
+            android:background="#473466"
+            android:text="Ciclo 2 - 2020"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtProgreso" />
+
+        <TextView
+            android:id="@+id/viewMateria1"
+            style="@style/texts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#C4C4C4"
+            android:text="Materia"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewCiclo" />
+
+        <TextView
+            android:id="@+id/viewMateria2"
+            style="@style/texts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#C4C4C4"
+            android:text="Materia 2"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewMateria1" />
+
+        <TextView
+            android:id="@+id/viewMateria3"
+            style="@style/texts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#C4C4C4"
+            android:text="Materia 3"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewMateria2" />
+
+        <TextView
+            android:id="@+id/viewMateria"
+            style="@style/texts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#C4C4C4"
+            android:text="Materia 3"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewMateria3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

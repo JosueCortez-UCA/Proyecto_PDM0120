@@ -9,10 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddEvaluation"></activity>
         <activity android:name=".ModifyGradesRecord" />
-        <activity android:name=".AddSubject" />
-        <activity android:name=".GradesRecord" />
         <activity android:name=".Schedule" />
         <activity android:name=".WeeklySchedule" />
         <activity android:name=".Record" />

@@ -10,11 +10,8 @@
     <string name="text_horario_inicio">Hora de inicio:</string>
     <string name="text_horario_fin">Hora de fin:</string>
 
-    <string name="text_nombre">Nombre</string>
     <string name="text_apellido">Apellido</string>
     <string name="text_email">Email</string>
-    <string name="text_pass">Contraseña</string>
-    <string name="text_pass_repeat">Repita la contraseña</string>
     <string name="text_uni">Universidad</string>
     <string name="text_carrera">Carrera</string>
 
@@ -49,5 +46,13 @@
     <string name="text_hint_pass_actual">Contraseña actual</string>
     <string name="text_hint_pass_nueva">Contraseña nueva</string>
     <string name="text_hint_pass_confirm">Confirmar contraseña</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
 
 </resources>
